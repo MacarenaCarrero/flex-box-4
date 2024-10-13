@@ -20,5 +20,57 @@ ul {
 }
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family:"League Spartan", sans-serif;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  text-align: center;
+  padding: 24px;
+}
+.title{
+  margin: 0;
+  font-size:40px;
+  font-weight: 700;
+  color: #512051;
+  width: 327px;
+  line-height: 32px;
+  margin-bottom: 17px;
+  margin-top: 82px;
+}
+.description{
+  margin-top: 0;
+  display: flex;
+  font-size:19px ;
+  color: #927B91;
+  font-weight: 500;
+  line-height: 25px;
+  margin-bottom: 39px;
+ 
+}
+
+.frame-stars{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 327px;
+  height: 78px;
+  background-color:#F7F2F7 ;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+.star{
+  display: flex;
+  justify-content: center;
+  width: 327px;
+  margin-bottom:15px ;
+}
+.description-star{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-size: 17px;
+  font-weight: 700;
+  color:#512051 ;
 }
